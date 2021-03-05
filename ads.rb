@@ -1,4 +1,4 @@
-class ads < Formula
+class Ads < Formula
   desc "Interactive content utility"
   homepage ""
   url "https://github.com/kees-/ads/archive/v0.%CE%B11.tar.gz"
