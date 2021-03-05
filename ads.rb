@@ -13,7 +13,6 @@ class Ads < Formula
 
   def install
 	bin.install "ads"
-	bin.install "ads_install"
 	lib.install "lib/ads"
 	system "zsh", "./ads_install", "#{prefix}"
   end
