@@ -14,11 +14,8 @@ class Ads < Formula
   def install
 	bin.install "ads"
 	bin.install "ads_install"
-	lib.install "lib/ads.conf"
-	lib.install "lib/adt.conf"
-	lib.install "lib/klib.conf"
-	lib.install "lib/q.conf"
-	lib.install "lib/template"
+	lib.install "lib/ads"
+	system "./bin/ads_install", "#{prefix}"
   end
 
 end
