@@ -13,8 +13,12 @@ class Ads < Formula
 
   def install
 	bin.install "ads"
-	system "mkdir", "-p", "${HOME}/.config/ads"
-	system "mv", "-iv", "lib/*", "${HOME}/.config/ads"
+	mkdir_p Dir.home/".config/ads"
+	mv buildpath/"lib/ads.conf" Dir.home/".config/ads"
+	mv buildpath/"lib/adt.conf" Dir.home/".config/ads"
+	mv buildpath/"lib/klib.conf" Dir.home/".config/ads"
+	mv buildpath/"lib/q.conf" Dir.home/".config/ads"
+	mv buildpath/"lib/template" Dir.home/".config/ads"
   end
 
 end
