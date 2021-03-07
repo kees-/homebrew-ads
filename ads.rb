@@ -4,7 +4,7 @@ class Ads < Formula
   homepage "https://github.com/kees-/ads"
   url "https://github.com/kees-/ads/archive/v0.%CE%B14.tar.gz"
   version "v0.α4"
-  sha256 "c683a81c7c278c50bc41dbda7398ca2393d11824678d2572943051d59ca93368"
+  sha256 "6bfbf8ae4a500126a94eac174fa8fb9effe210b262c272e2fc93f7309419844d"
   license "MIT"
 
   depends_on "zsh"
@@ -23,7 +23,7 @@ class Ads < Formula
   end
 
   def caveats
-	"\033[43;103m\xe2\x86\x92 Run \033[1mads_install\033[0;43;103m to finish the process and set up your instance.\033[K\n  Don't know how?\n  Just type \033[1mads_install\033[0;43;103m into your command prompt.\033[0m"
+	"\033[43;103m\xe2\x86\x92 Run \033[1mads_install\033[0;43;103m to finish the process and set up your instance.\033[K\n  Don't know how?\033[K\n  Just type \033[1mads_install\033[0;43;103m into your command prompt.\033[0m"
   end
 
 end
