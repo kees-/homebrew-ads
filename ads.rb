@@ -4,7 +4,7 @@ class Ads < Formula
   homepage "https://github.com/kees-/ads"
   url "https://github.com/kees-/ads/archive/v0.%CE%B14.tar.gz"
   version "v0.α4"
-  sha256 "a73406bfa6a27140a0ec6c08b66cb09a493da523d31e8f1a41a9a2f6f7677822"
+  sha256 "47a5f31ff31212e0f887db214fb7022aec0531589a02682b25813bba1100b7bd"
   license "MIT"
 
   depends_on "zsh"
