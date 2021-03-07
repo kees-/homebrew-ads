@@ -4,7 +4,7 @@ class Ads < Formula
   homepage "https://github.com/kees-/ads"
   url "https://github.com/kees-/ads/archive/v0.%CE%B14.tar.gz"
   version "v0.α4"
-  sha256 "6bfbf8ae4a500126a94eac174fa8fb9effe210b262c272e2fc93f7309419844d"
+  sha256 "8642891be1e2847f01df770dfd150f2a0d5e7d881bcd68e42418db7418de1074"
   license "MIT"
 
   depends_on "zsh"
@@ -20,6 +20,7 @@ class Ads < Formula
 	lib.install "lib/klib.conf"
 	lib.install "lib/q.conf"
 	lib.install "lib/template"
+	man.install "ads.1"
   end
 
   def caveats
