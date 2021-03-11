@@ -2,7 +2,7 @@ class Ads < Formula
 
   desc "Interactive content utility"
   homepage "https://github.com/kees-/ads"
-  url "https://github.com/kees-/ads/archive/v0.%CE%B14.tar.gz"
+  url "https://github.com/kees-/ads/archive/v0.%CE%B15.tar.gz"
   version "v0.α5"
   sha256 "e812900ee72dada46339a7851fcd480bb73bed682840e423b1016197800d6967"
   license "MIT"
