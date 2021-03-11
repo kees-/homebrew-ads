@@ -3,8 +3,8 @@ class Ads < Formula
   desc "Interactive content utility"
   homepage "https://github.com/kees-/ads"
   url "https://github.com/kees-/ads/archive/v0.%CE%B14.tar.gz"
-  version "v0.α4"
-  sha256 "47a5f31ff31212e0f887db214fb7022aec0531589a02682b25813bba1100b7bd"
+  version "v0.α5"
+  sha256 "e812900ee72dada46339a7851fcd480bb73bed682840e423b1016197800d6967"
   license "MIT"
 
   depends_on "zsh"
@@ -18,8 +18,8 @@ class Ads < Formula
 	lib.install "lib/ads.conf"
 	lib.install "lib/adt.conf"
 	lib.install "lib/klib.conf"
-	lib.install "lib/q.conf"
 	lib.install "lib/template"
+	system "touch", "#{prefix}/lib/q.conf"
 	man.install "ads.1"
   end
 
